@@ -2,7 +2,7 @@
 if(isset($_GET['list'])){
 $domain = "https://splay-plus.vercel.app/api/";
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, 'https://service-playplus.ottvs.com.br/v1/android/FindLiveGridByGroup');
+curl_setopt($ch, CURLOPT_URL, 'https://service-playplus.ottvs.com.br/v1/android/');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, "{\"AuthenticationTicket\":\"playplus@playplus:l2131ht!@#\",\"LiveGroupId\":-1,\"State\":\"SP\"}");
