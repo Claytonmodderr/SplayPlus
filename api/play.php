@@ -1,5 +1,5 @@
 <?php
-$domain = "http://localhost/record/";
+$domain = "https://splay-plus.vercel.app/api/";
 $url = file_get_contents($domain."canais.php?list");
 $json = json_decode($url, true);
 
@@ -61,3 +61,4 @@ $json = json_decode($url, true);
 
 </html>
 <!--PLAYER-->
+
